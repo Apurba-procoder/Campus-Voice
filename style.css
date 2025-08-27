@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header h1 {
+  text-align: center;
+  color: #004080;
+  margin-bottom: 30px;
+}
+
+#new-post-section {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+
+#post-content {
+  width: 100%;
+  height: 80px;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+  box-sizing: border-box;
+}
+
+#add-post-btn {
+  margin-top: 15px;
+  padding: 10px 25px;
+  font-size: 1rem;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#add-post-btn:hover {
+  background-color: #005bb5;
+}
+
+#posts-section h2 {
+  text-align: center;
+  color: #004080;
+  margin-bottom: 15px;
+}
+
+#posts-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.post {
+  background: white;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.post p {
+  margin: 0 0 12px 0;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+.vote-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 600;
+  color: #0073e6;
+}
+
+.vote-btn {
+  cursor: pointer;
+  user-select: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid #0073e6;
+  transition: background-color 0.2s ease;
+}
+
+.vote-btn:hover {
+  background-color: #d1e7ff;
+}
